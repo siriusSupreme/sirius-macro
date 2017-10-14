@@ -1,0 +1,69 @@
+{
+  "name": "siriussupreme/sirius-macro",
+  "description": "PHP 宏处理",
+  "type": "library",
+  "keywords": [ ],
+  "homepage": "https://github.com/siriusSupreme/sirius-macro",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "siriusSupreme",
+      "email": "guoplc@163.com",
+      "homepage": "https://github.com/siriusSupreme/sirius-macro",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sirius\\Macro\\": "src/"
+    },
+    "classmap": [],
+    "files": []
+  },
+  "autoload-dev": {
+    "psr-4": {},
+    "classmap": []
+  },
+  "suggest": {},
+  "extra": {},
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "scripts": {
+    "pre-install-cmd": [],
+    "post-install-cmd": [],
+    "pre-update-cmd": [],
+    "post-update-cmd": [],
+    "pre-status-cmd": [],
+    "post-status-cmd": [],
+    "pre-package-install": [],
+    "post-package-install": [],
+    "pre-package-update": [],
+    "post-package-update": [],
+    "pre-package-uninstall": [],
+    "post-package-uninstall": [],
+    "pre-autoload-dump": [],
+    "post-autoload-dump": [],
+    "post-root-package-install": [],
+    "post-create-project-cmd": []
+  },
+  "archive": {
+    "exclude": []
+  }
+}
